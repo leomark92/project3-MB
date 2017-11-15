@@ -1,3 +1,13 @@
-body {
-    background: rgb(165, 208, 214);
+@import '_header.scss'; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+ul {
+    list-style-type: none;
+    color: #fff;
 }
