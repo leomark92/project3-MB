@@ -1,4 +1,6 @@
 @import '_header.scss'; 
+@import '_banner.scss'; 
+
 
 * {
     margin: 0;
@@ -9,5 +11,4 @@
 
 ul {
     list-style-type: none;
-    color: #fff;
 }
