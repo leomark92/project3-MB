@@ -80,6 +80,7 @@
     color: #fff;
     font-size: 20px;
     padding-left: 20px;
+    outline: none;
 }
 
 
@@ -108,19 +109,19 @@
 }
 
 .long_input:focus::-webkit-input-placeholder { 
-    color:transparent; 
+    color:rgba(165, 165, 165, 0.418); 
 }
 
 .long_input:focus:-moz-placeholder { 
-    color:transparent; 
+    color:rgba(165, 165, 165, 0.418);
 } 
 
 .long_input:focus::-moz-placeholder { 
-    color:transparent; 
+    color:rgba(165, 165, 165, 0.418);
 } 
 
 .long_input:focus:-ms-input-placeholder { 
-    color:transparent; 
+    color:rgba(165, 165, 165, 0.418);
 }
 
 .red_button {
