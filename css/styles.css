@@ -293,7 +293,8 @@
   border-bottom: 5px solid #1baf5d; }
 
 .price_div1 {
-  height: 350px; }
+  height: 350px;
+  background: #fff; }
 
 .pricing_text {
   width: 70%;
@@ -382,6 +383,16 @@
 
 .title_purple {
   color: #88499c; }
+
+.price_top {
+  background: #1baf5d;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 80px; }
 
 ul {
   list-style-type: none; }
