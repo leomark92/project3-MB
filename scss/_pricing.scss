@@ -1,0 +1,152 @@
+.images {
+    padding-top: 20px;
+}
+
+.img_price1 {
+    background: url('../img/apartment.png');
+    background-size: 100% 100%;
+    width: 250px;
+    height: 180px;
+    border-bottom: 5px solid #1baf5d;
+
+}
+
+.img_price2 {
+    background: url('../img/party.png');
+    background-size: 100% 100%;
+    width: 250px;
+    height: 180px;
+    border-bottom: 5px solid #f19e1f;
+
+}
+.img_price3 {
+    background: url('../img/apartment.png');
+    background-size: 100% 100%;
+    width: 250px;
+    height: 180px;
+    border-bottom: 5px solid #88499c;
+
+}
+.img_price4 {
+    background: url('../img/office.png');
+    background-size: 100% 100%;
+    width: 250px;
+    height: 180px;
+    border-bottom: 5px solid #1baf5d;
+
+}
+
+.price_div1 {
+    height: 350px;
+}
+
+.pricing_text {
+    
+    width: 70%;
+    text-align: center;
+    margin:30px auto 0 auto;
+    color: grey;
+    font-size: 17px;
+
+}
+
+.price_circle {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #1baf5d;
+    text-align: center;
+    padding-bottom: 6px;
+    font-size: 35px;
+    color: #fff;
+    border: 2px solid #fff;
+    bottom: -30px;
+    left: 95px;
+   
+   
+}
+
+.orn_circle {
+    background-color: #f19e1f;
+}
+
+.purple_circle {
+    background-color: #88499c;
+}
+
+
+
+.pricing_hover {
+    opacity: 0;
+    width: 250px;
+    height: 175px;
+    cursor: pointer;
+    
+}
+
+.pricing_hover:hover {
+    opacity: 1;
+    background: rgba(128, 0, 128, 0.452);
+    transition: 0.4s;
+}
+
+.grn_prc_bg:hover {
+    background: rgba(32, 187, 115, 0.452);
+}
+
+.orn_prc_bg:hover {
+    background: rgba(167, 126, 16, 0.575);
+}
+
+.show_more {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 75%;
+    height: 45px;
+    position: absolute;
+    top: 30px;
+    left: 13%;
+    color: #fff;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.show_more i {
+    margin-right: 10px;
+}
+
+.pricing_stars {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    top: 100px;
+    left: 80px;
+}
+
+.pricing_title {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.pricing_stars2 {
+    text-align: center;
+    color: #f19e1f;
+}
+
+.title_gray {
+    color: rgb(170, 169, 169);
+}
+
+.title_green {
+    color: #1baf5d;
+}
+
+.title_orange {
+    color: #f19e1f;
+}
+
+.title_purple {
+   color: #88499c;
+}
