@@ -56,7 +56,7 @@
   background: #e94e38;
   position: relative; }
 
-.user_icon {
+.user_head {
   position: absolute;
   color: #fff;
   top: 25px;
@@ -262,39 +262,41 @@
   padding-top: 100px; }
 
 .images {
-  padding-top: 20px; }
+  padding-top: 20px;
+  border-top: 2px solid rgba(175, 175, 175, 0.418);
+  border-bottom: 2px solid rgba(175, 175, 175, 0.418); }
 
 .img_price1 {
   background: url("../img/apartment.png");
   background-size: 100% 100%;
   width: 250px;
   height: 180px;
-  border-bottom: 5px solid #1baf5d; }
+  border-bottom: 5px solid #1baf5d;
+  margin: 0 auto; }
 
 .img_price2 {
   background: url("../img/party.png");
   background-size: 100% 100%;
   width: 250px;
   height: 180px;
-  border-bottom: 5px solid #f19e1f; }
+  border-bottom: 5px solid #f19e1f;
+  margin: 0 auto; }
 
 .img_price3 {
   background: url("../img/apartment.png");
   background-size: 100% 100%;
   width: 250px;
   height: 180px;
-  border-bottom: 5px solid #88499c; }
+  border-bottom: 5px solid #88499c;
+  margin: 0 auto; }
 
 .img_price4 {
   background: url("../img/office.png");
   background-size: 100% 100%;
   width: 250px;
   height: 180px;
-  border-bottom: 5px solid #1baf5d; }
-
-.price_div1 {
-  height: 350px;
-  background: #fff; }
+  border-bottom: 5px solid #1baf5d;
+  margin: 0 auto; }
 
 .pricing_text {
   width: 70%;
@@ -318,7 +320,7 @@
   left: 95px; }
 
 .orn_circle {
-  background-color: #f19e1f; }
+  background-color: #f19e1f !important; }
 
 .purple_circle {
   background-color: #88499c; }
@@ -393,6 +395,63 @@
   top: 5px;
   right: 5px;
   width: 80px; }
+
+.long_img1 {
+  background: url("../img/apartment2.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 175px;
+  border-bottom: 5px solid #1baf5d;
+  color: #fff;
+  font-weight: 700; }
+
+.orange_border {
+  border-bottom: 5px solid #f19e1f !important; }
+
+.long_img_circle {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background-color: #1baf5d;
+  text-align: center;
+  padding-bottom: 6px;
+  font-size: 35px;
+  color: #fff;
+  border: 2px solid #fff;
+  bottom: -30px;
+  left: 45px; }
+
+.long_img_title {
+  position: absolute;
+  bottom: 2px;
+  left: 170px; }
+
+.long_img_stars {
+  color: #f19e1f; }
+
+.lng_img_number {
+  font-weight: 300; }
+
+.long_img_stars2 {
+  color: #f19e1f;
+  margin-left: 120px;
+  margin-top: 40px; }
+
+.user_icon {
+  height: 61px;
+  position: absolute;
+  left: 60px;
+  top: 220px; }
+
+.long_img_text {
+  width: 350px;
+  font-size: 15px;
+  margin-left: 121px; }
+
+.pricing_more {
+  text-align: center;
+  color: grey; }
 
 ul {
   list-style-type: none; }
