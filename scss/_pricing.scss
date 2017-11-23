@@ -1,5 +1,6 @@
 .images {
     padding-top: 20px;
+    padding-bottom: 20px;
     border-top: 2px solid rgba(175, 175, 175, 0.418);
     border-bottom: 2px solid rgba(175, 175, 175, 0.418);
 }
@@ -232,5 +233,10 @@
 
 .pricing_more {
     text-align: center;
+    
+}
+
+.pricing_more a{
     color: grey;
 }
+

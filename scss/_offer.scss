@@ -1,0 +1,39 @@
+.offer_circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #9dacad;
+    border-radius: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #fff;
+    z-index: 2;
+    color: #9dacad;
+}
+
+.offer_circle:hover {
+    border: 2px solid #1db05e;
+    cursor: pointer;
+    color: #1db05e;
+}
+
+.offer_line {
+    width: 900px;
+    height: 2px;
+    background-color: #9dacad;
+    top: 50%;
+    z-index: 1;
+    
+}
+
+.offer_circle2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: #1db05e;
+    border-radius: 100%;
+    top: 10px;
+    left: 0px;
+    text-align: center;
+}
+
