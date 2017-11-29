@@ -6,34 +6,12 @@
 
 .header {
   height: 75px;
-  background-color: grey;
   position: relative; }
 
 .logo {
   position: absolute;
   top: 15px;
   left: 15px; }
-
-.navig {
-  width: 505px;
-  float: right;
-  padding-top: 25px;
-  margin-right: 10px; }
-
-.navig ul li {
-  display: inline-block;
-  padding-left: 15px; }
-
-.navig ul li a {
-  color: #96a6a7;
-  font-size: 17px; }
-
-.navig ul li a:hover {
-  text-decoration: none;
-  color: #fff; }
-
-.navig ul li a:focus {
-  color: #d4d3d3; }
 
 .search_grey {
   height: 75px;
@@ -50,7 +28,7 @@
   font-size: 25px; }
 
 .login_red {
-  width: 300px;
+  width: 150px;
   height: 75px;
   float: right;
   background: #e94e38;
@@ -69,22 +47,34 @@
   top: 25px;
   left: 50px; }
 
+.bg_white {
+  background-color: #fff; }
+
+.z-big {
+  z-index: 5; }
+
 .bg_color {
   height: 375px;
-  background-color: rgba(31, 30, 30, 0.87); }
+  background-color: rgba(31, 30, 30, 0.87);
+  position: relative;
+  z-index: 3; }
 
 .figures {
   background: url("../img/bg-figures.png");
   background-size: 100% 100%;
   height: 375px;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  z-index: 2; }
 
 .bg_img {
   background: url("../img/background-img.jpg") no-repeat center;
   background-size: 100% 100%;
   height: 375px;
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  z-index: 0; }
 
 .figures > h2 {
   color: white;
@@ -96,7 +86,8 @@
   height: 220px;
   margin: 0 auto;
   border-radius: 20px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  z-index: -1; }
 
 .search_div {
   width: 225px;
@@ -199,7 +190,7 @@
 .line_divs {
   height: 35px;
   width: 255px;
-  margin: auto; }
+  margin: 5px auto 0px 60px; }
 
 .line_div {
   width: 115px;
@@ -276,7 +267,7 @@
   margin: 0 auto; }
 
 .img_price2 {
-  background: url("../img/party.png");
+  background: url("../img/party.jpg");
   background-size: 100% 100%;
   width: 250px;
   height: 180px;
@@ -299,6 +290,9 @@
   border-bottom: 5px solid #1baf5d;
   margin: 0 auto; }
 
+@media all and (max-width: 1211px) {
+  .mobile-width {
+    width: 50%; } }
 .pricing_text {
   width: 70%;
   text-align: center;
@@ -474,7 +468,7 @@
   color: #1db05e; }
 
 .offer_line {
-  width: 900px;
+  width: 100%;
   height: 2px;
   background-color: #9dacad;
   top: 50%;
@@ -488,7 +482,75 @@
   border-radius: 100%;
   top: 10px;
   left: 0px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 8px;
+  color: #fff; }
+
+.footer_img {
+  background: url("../img/background-img.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 450px;
+  width: 100%; }
+
+.footer_bg {
+  height: 450px; }
+
+.footer_bg_color {
+  background-color: rgba(27, 27, 27, 0.589);
+  height: 450px; }
+
+.subscribe_form {
+  width: 500px;
+  height: 60px;
+  margin: 3rem auto; }
+
+.footer_input {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(128, 128, 128, 0);
+  border-radius: 30px;
+  border: 1px solid grey;
+  color: #fff;
+  font-size: 20px;
+  padding-left: 50px;
+  outline: none;
+  padding-bottom: 2px; }
+
+.footer_input::-webkit-input-placeholder {
+  color: #a1a1a1;
+  font-size: 20px; }
+
+.footer_input::-moz-input-placeholder {
+  color: #a1a1a1;
+  font-size: 20px; }
+
+.footer_input:-moz-input-placeholder {
+  color: #a1a1a1;
+  font-size: 20px; }
+
+.footer_input::-ms-input-placeholder {
+  color: #a1a1a1;
+  font-size: 20px; }
+
+.subscribe_btn {
+  height: 50px;
+  width: 100px;
+  background-color: #ec4444;
+  top: 5px;
+  right: 5px;
+  border: none;
+  border-radius: 30px; }
+
+.footer_envelope {
+  top: 22px;
+  left: 1.2rem; }
+
+.footer_link {
+  color: white;
+  border-bottom: 1px solid grey;
+  margin-bottom: 1rem;
+  display: block;
+  width: 80px; }
 
 ul {
   list-style-type: none; }

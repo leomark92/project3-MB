@@ -1,6 +1,8 @@
 .bg_color {
     height: 375px;
     background-color: rgba(31, 30, 30, 0.87);
+    position: relative;
+    z-index: 3;
    
 }
 
@@ -10,6 +12,9 @@
     height: 375px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+    z-index: 2;
+
     
 }
 
@@ -19,6 +24,8 @@
     
     height: 375px;
     width: 100%;
+    position: relative;
+    z-index: 0;
       
 }
 
@@ -34,6 +41,7 @@
     margin: 0 auto;
     border-radius: 20px;
     margin-top: 40px;
+    z-index: -1;
 }
 
 .search_div {

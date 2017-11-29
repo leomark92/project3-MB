@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
         <div class="header">
@@ -15,14 +16,23 @@
             <div class="login_red"><i class="fa fa-user user_head"></i>
             <span class="text_login">LOGIN</span></div>
             <div class="search_grey"><i class="fa fa-search search_icon"></i></div>
-            <div class="navig clearfix">
-                <ul>
-                    <li><a href="#">REALITY</a></li>
-                    <li><a href="#">LIVING</a></li>
-                    <li><a href="#">EDUCATION</a></li>
-                    <li><a href="#">ENTERTAINMENT</a></li>
-                    <li><a href="#">MOBILITY</a></li>
+            <div class="navbar navbar-expand-lg navbar-light navbar-custom bg_white">
+                    <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" class="align-top navbar-custom-logo" alt="Logo">
+                            <span class="navbar-custom-brand-text"></span>
+                        </a>
+                    <button class="navbar-toggler navbar-custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mt-1 bg_white position-relative z-big">
+                    <li class="nav-item"><a href="#" class="nav-link">REALITY</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">LIVING</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">EDUCATION</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ENTERTAINMENT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">MOBILITY</a></li>
                 </ul>
+                </div>
             </div>
         </div>
         
@@ -40,18 +50,21 @@
         </div>
     </div>
     <div class="container">
-    <div class="row line_height clearfix">
-        <div>
+    <div class="row clearfix">
+        <div class="col col-sm col-md col-lg col-xl">
         <ul class="line_list">
             <li><a href="">RECOMMENDED</a></li>
             <li><a href="">LATEST</a></li>
             <li><a href=""><span class="red_line_text">HIGHLIGHTS</span></a></li>
         </ul>
     </div>
+    <div class="col col-sm col-md col-lg col-xl pt-2">
     <div class="line_divs">
         <div class="line_div red_line_text">DUBAI <i class="fa fa-chevron-down arrow_down2"></i></div>
         <div class="line_div">SHOW MAP <i class="fa fa-map-marker location_icon"></i></div>
     </div>
+    </div>
+    <div class="col col-sm col-md col-lg col-xl pb-2">
     <div class="filter"><span class="filter_text">FILTER:</span> 
         <div class="filter_circle"><i class="fa fa-subway"></i></div>
         <div class="filter_circle"><i class="fa fa-music"></i></div>
@@ -59,12 +72,13 @@
         <div class="filter_circle"><i class="fa fa-user-md"></i></div>
         <div class="filter_circle"><i class="fa fa-home"></i></div>
     </div>
+    </div>
 </div>
 </div>
 <div class="images bg-light">
 <div class="container">
     <div class="row">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+        <div class="col col-sm col-md col-lg col-xl">
             <div class="img_price1 position-relative">
                 <div class="price_top">$2,678</div>
                 <div class="pricing_hover grn_prc_bg">
@@ -94,7 +108,7 @@
                 <span class="title_gray">(165)</span>
             </p>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+        <div class="col col-s6 col-md col-lg col-xl">
             <div class="img_price2 position-relative">
                     <div class="pricing_hover orn_prc_bg">
                             <div class="show_more"><i class="fa fa-search"></i>SHOW MORE</div>
@@ -121,7 +135,7 @@
                 <span class="title_gray">(165)</span>
             </p>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+        <div class="col col-sm col-md col-lg col-xl">
             <div class="img_price3 position-relative">
                     <div class="pricing_hover">
                             <div class="show_more"><i class="fa fa-search"></i>SHOW MORE</div>
@@ -148,7 +162,7 @@
                 <span class="title_gray">(165)</span>
             </p>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+        <div class="col col-sm col-md col-lg col-xl">
             <div class="img_price4 position-relative">
                     <div class="price_top">$2,678</div>
                     <div class="pricing_hover grn_prc_bg">
@@ -251,7 +265,7 @@
     </div>
     
     <div class="row">
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <div class="col col-sm col-md col-lg col-xl">
                 <div class="img_price1 position-relative">
                     <div class="price_top">$2,678</div>
                     <div class="pricing_hover grn_prc_bg">
@@ -281,7 +295,7 @@
                     <span class="title_gray">(165)</span>
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <div class="col col-sm col-md col-lg col-xl">
                 <div class="img_price2 position-relative">
                         <div class="pricing_hover orn_prc_bg">
                                 <div class="show_more"><i class="fa fa-search"></i>SHOW MORE</div>
@@ -308,7 +322,7 @@
                     <span class="title_gray">(165)</span>
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <div class="col col-sm col-md col-lg col-xl">
                 <div class="img_price3 position-relative">
                         <div class="pricing_hover">
                                 <div class="show_more"><i class="fa fa-search"></i>SHOW MORE</div>
@@ -335,7 +349,7 @@
                     <span class="title_gray">(165)</span>
                 </p>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <div class="col col-sm col-md col-lg col-xl">
                 <div class="img_price4 position-relative">
                         <div class="price_top">$2,678</div>
                         <div class="pricing_hover grn_prc_bg">
@@ -398,7 +412,7 @@
              
                                  <div class="user_icon"><img src="img/user2.png" alt=""></div>
             </div>
-            <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <div class="col col-sm col-md col-lg col-xl">
                     <div class="img_price1 position-relative">
                         <div class="price_top">$2,678</div>
                         <div class="pricing_hover grn_prc_bg">
@@ -428,7 +442,7 @@
                         <span class="title_gray">(165)</span>
                     </p>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+                <div class="col col-sm col-md col-lg col-xl">
                         <div class="img_price2 position-relative">
                                 <div class="pricing_hover orn_prc_bg">
                                         <div class="show_more"><i class="fa fa-search"></i>SHOW MORE</div>
@@ -460,10 +474,10 @@
 </div>
 <h4 class="pricing_more mt-3"><a href="#">Load more →</a></h4>
 </div>
-<div class="offer_bg bg-light">
-    <h3 class="text-center mt-5">What can do DuHoot offer to you?</h3>
+<div class="offer_bg bg-light pt-5">
+    <h3 class="text-center">What can do DuHoot offer to you?</h3>
     <p class="text-center text-secondary">Etiam cursus ipsum quis enim faucibus</p>
-    <div class="container">
+    <div class="container pb-5">
         <div class="row d-flex justify-content-around mt-5 position-relative">
             <div class="offer_line position-absolute"></div>
           <div class="offer_circle"><i class="fa fa-home"></i></div>
@@ -474,25 +488,66 @@
         </div>
     <h3 class="title_green text-center mt-5">Reality</h3>
     <div class="row mt-5">
-    <div class="col-6 pl-5 position-relative">Cum sociis natoque penatibus et 
+    <div class="col-12 col-sm-6 pl-5 position-relative mb-5">Cum sociis natoque penatibus et 
         magnis dis parturient montes, nascetur ridiculus mus.
          Morbi gravida tellus in purus pharetra, vel dignissim
           mauris viverra. Maecenas vitae risus est. In hendrerit,
            massa at.
            <div class="offer_circle2"><i class="fa fa-bolt"></i></div>
     </div>
-    <div class="col-6 pl-5 position-relative">Cum sociis natoque penatibus et 
+    <div class="col-12 col-sm-6 pl-5 position-relative">Cum sociis natoque penatibus et 
         magnis dis parturient montes, nascetur ridiculus mus. 
         Morbi gravida tellus in purus pharetra, vel dignissim 
         mauris viverra. Maecenas vitae risus est. In hendrerit,
          massa at.
-         <div class="offer_circle2"><i class="fa fa-bolt"></i></div>
+         <div class="offer_circle2"><i class="fa fa-leaf"></i></div>
     </div>
     </div>
 </div>
 </div>
-        
 
+<div class="footer_bg footer_img">
+<div class="footer_bg_color">
+<div class="container text-white pt-5">
+<h3 class="text-center">Subscribe to our newsletter</h3>
+<div class="subscribe_form position-relative">
+<input class="footer_input" type="text" placeholder="youremail@com"></input>
+<i class="fa fa-envelope-o position-absolute footer_envelope"></i>
+<button type="submit" class="subscribe_btn position-absolute text-white">SUBSCRIBE</button>
+</div>
+<div class="row text-muted">
+    <div class="col">
+        <a href="#" class="footer_link">Ipsum quis</a>
+        <ul>
+            <li>Aliquam quis</li>
+            <li>Pulvinar purus</li>
+            <li>Etiam cursus</li>
+            <li>Ipsum quis</li>
+            <li>Enim faucibus</li>
+        </ul>
+    </div>
+    <div class="col">
+            <a href="#" class="footer_link">Ipsum quis</a>
+            <ul>
+                <li>Aliquam quis</li>
+                <li>Pulvinar purus</li>
+                <li>Etiam cursus</li>
+                <li>Ipsum quis</li>
+                <li>Enim faucibus</li>
+            </ul>
+    </div>
+    <div class="col-12 col-md-4 text-alert">
+            <a href="#" class="footer_link">Follow us</a>
+            <i class="fa fa-facebook fa-2x"></i>
+            <i class="fa fa-twitter fa-2x pl-2"></i>
+            <i class="fa fa-google-plus-official fa-2x pl-2"></i>
+            <i class="fa fa-youtube fa-2x pl-2"></i>
+            <p class="text-alert mt-5">Copyright © all rights reserved</p>
+    </div>
+</div>
+</div>
+</div>
+</div>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

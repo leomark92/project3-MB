@@ -16,7 +16,7 @@
 }
 
 .img_price2 {
-    background: url('../img/party.png');
+    background: url('../img/party.jpg');
     background-size: 100% 100%;
     width: 250px;
     height: 180px;
@@ -41,6 +41,13 @@
     border-bottom: 5px solid #1baf5d;
     margin: 0 auto;
 
+}
+
+@media all and (max-width: 1211px) {
+    .mobile-width {
+        width: 50%;
+        
+    }
 }
 
 

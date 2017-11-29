@@ -1,0 +1,32 @@
+@media all and (max-width: 530px) {
+    .subscribe_form {
+        width: 300px;
+    }
+
+    .footer_input::-webkit-input-placeholder {
+        
+        font-size: 14px;
+        
+    }
+     
+    .footer_input::-moz-input-placeholder {
+        
+        font-size: 14px;
+        
+    }
+    .footer_input:-moz-input-placeholder {
+        
+        font-size: 14px;
+        
+    }
+    .footer_input::-ms-input-placeholder {
+       
+        font-size: 14px;
+        
+    }
+
+    .footer_input {
+      padding-bottom: 5px;
+    }
+}
+
